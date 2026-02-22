@@ -1,0 +1,38 @@
+/* DTVerse UI Theme — Tailwind v4 friendly */
+:root {
+  /* radius */
+  --dt-radius-sm: 10px;
+  --dt-radius-md: 14px;
+  --dt-radius-lg: 18px;
+
+  /* shadows */
+  --dt-shadow-sm: 0 1px 2px rgba(0,0,0,.06);
+  --dt-shadow-md: 0 8px 24px rgba(0,0,0,.10);
+
+  /* palette (light) */
+  --dt-bg: #ffffff;
+  --dt-fg: #0a0a0a;
+  --dt-muted: #71717a;
+  --dt-border: #e4e4e7;
+
+  /* accent */
+  --dt-accent: #111827;        /* near-black (premium) */
+  --dt-accent-foreground: #ffffff;
+
+  /* surfaces */
+  --dt-card: #ffffff;
+  --dt-card-foreground: #0a0a0a;
+}
+
+.dark {
+  --dt-bg: #09090b;
+  --dt-fg: #fafafa;
+  --dt-muted: #a1a1aa;
+  --dt-border: #27272a;
+
+  --dt-accent: #fafafa;
+  --dt-accent-foreground: #09090b;
+
+  --dt-card: #0b0b0f;
+  --dt-card-foreground: #fafafa;
+}
