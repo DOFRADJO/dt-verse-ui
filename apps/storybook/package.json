@@ -1,5 +1,5 @@
 {
-  "name": "storybook",
+  "name": "@dtverse/storybook",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
